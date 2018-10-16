@@ -1,0 +1,75 @@
+body
+{
+	align-items: center;
+	text-align: center;
+	margin: 0;
+}
+
+.inputs-container
+{
+	display: inline-block;
+	margin: 48px 0;
+}
+
+#file
+{
+	position: absolute;
+	opacity: 0;
+	z-index: -1;
+}
+
+.input-upload-label
+{
+	display: block;
+	float: left;
+	font-size: 16px;
+	background-color: #eee;
+	border-radius: 3px;
+	font-family: Roboto, monospace, sans-serif;
+	padding: 15px 22px;
+}
+
+.input-upload-label:hover
+{
+	background-color: #ddd;
+}
+
+.container
+{
+	display: block;
+	float: left;
+	margin-left: 20px;
+}
+
+#effect
+{
+	display: block;
+	float: left;
+	clear: left;
+	margin-top: 3px;
+	border: none;
+	outline: 0;
+	background-color: #eee;
+	border-radius: 3px;
+	padding: 7px 8px;
+}
+
+.input-effect-label
+{
+	display: block;
+	float: left;
+	clear: right;
+	font-size: 12px;
+	font-family: Roboto, monospace, sans-serif;
+	color: #ccc;
+}
+
+#result
+{
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 100%;
+	outline: 0;
+	margin: 0;
+	padding: 0;
+}

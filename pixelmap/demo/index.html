@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>pixelmap</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- INTERFACE -->
+    <div class="inputs-container">
+        <input type="file" id="file" accept="image/*" />
+        <label class="input-upload-label" for="file">Upload image</label>
+        <div class="container">
+            <span class="input-effect-label">TEST EFFECT</span>
+            <select id="effect">
+                <option value="modeRGB">RGB</option>
+                <option value="modeRBG">RBG</option>
+                <option value="modeGRB">GRB</option>
+                <option value="modeGBR">GBR</option>
+                <option value="modeBGR">BGR</option>
+                <option value="modeBRG">BRG</option>
+                <option value="invert">Invert</option>
+                <option value="arithmeticMean">Arithmetic Mean</option>
+                <option value="sepia">Sepia</option>
+                <option value="sine">Sine</option>
+                <option value="sineAbsolute">Sine Absolute</option>
+                <option value="sigmoidRound">Sigmoid Round</option>
+                <option value="squareRoot">SquareRoot</option>
+                <option value="cubeRoot">Cube Root</option>
+            </select>
+        </div>
+    </div>
+    <br>
+
+    <!-- RESULT COMES HERE -->
+    <img id="result" src="">
+
+    <script src="https://cdn.jsdelivr.net/gh/howion/pixelmap@v1.1/lib/pixelmap.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/howion/pixelmap-functions@v1.0/lib/pixelmapFunctions.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
